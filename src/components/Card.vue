@@ -8,9 +8,9 @@
       ></v-progress-linear>
     </template>
 
-    <v-img height="100%" src="../assets/hong.png"></v-img>
+    <v-img height="100%" src="../assets/3dayc.png"></v-img>
 
-    <v-card-title>홍이</v-card-title>
+    <v-card-title>이름</v-card-title>
 
     <v-card-text>
       <v-row align="center" class="mx-0">
@@ -29,11 +29,11 @@
       </v-row>
 
       <div class="my-4 text-subtitle-1">
-        $ • Bucheon, Sangdong Lake Park
+        $ • Location, Area
       </div>
 
       <div>
-        10/16~10/30 누적 5.7km로 현재 선두
+        description
       </div>
     </v-card-text>
 
@@ -69,7 +69,7 @@
 export default {
   data: () => ({
     loading: false,
-    selection: 3,
+    selection: 2,
   }),
 
   methods: {

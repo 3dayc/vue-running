@@ -31,11 +31,11 @@ export default {
   data: () => ({
     selectedItem: 0,
     items: [
-      { text: "홍이", icon: "mdi-account", km: "5.7km" },
-      { text: "향훈", icon: "mdi-account", km: "4.4km" },
-      { text: "진혁", icon: "mdi-account", km: "3.4km" },
-      { text: "박일광선", icon: "mdi-account", km: "2.1km" },
-      { text: "성현", icon: "mdi-account", km: "1.1km" },
+      { text: "홍이", icon: "mdi-account", km: "0km" },
+      { text: "향훈", icon: "mdi-account", km: "0km" },
+      { text: "진혁", icon: "mdi-account", km: "0km" },
+      { text: "박일광선", icon: "mdi-account", km: "0km" },
+      { text: "성현", icon: "mdi-account", km: "0km" },
       { text: "고하늘", icon: "mdi-account", km: "0km" },
       { text: "김래오", icon: "mdi-account", km: "0km" },
       { text: "김예리", icon: "mdi-account", km: "0km" },

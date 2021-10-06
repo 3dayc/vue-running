@@ -28,17 +28,20 @@
         </template>
         <template v-slot:default="dialog">
           <v-card>
-            <v-toolbar color="primary" dark>테스트 페이지 (미완성)</v-toolbar>
+            <v-toolbar color="primary" dark>알림창</v-toolbar>
             <v-card-text>
               <div class="text-h6 pa-12">
-                1차 정기 이벤트<br />
-                <p style="font-size:14px; margin-top:10px">
-                  * 10/16~10/30 기간 동안의 누적km 기록<br />
-                  * 3등까지 소정의 상품 증정<br />
-                  * 나이키런, 가민 등 기록 캡처본을 러닝 단톡방에 올린것만
-                  인정<br />
-                  * 메인 프로필은 기록 업데이트 시 선두 프로필로 변경
-                </p>
+                10월 누적기록 챌린지<br />
+                <ul style="font-size:14px; margin-top:20px">
+                  <li>10/09~10/30 (3주) 기간 동안의 누적km 기록</li>
+                  <li>챌린지 마지막날의 3등까지 소정의 상품 증정</li>
+                  <li>
+                    나이키런, 가민 등 기록 캡처본을 러닝 단톡방에 올린것만 공식
+                    인정
+                  </li>
+                  <li>메인 프로필은 기록 업데이트 당시 선두의 프로필로 변경</li>
+                  <li>기록 업데이트는 1~2일에 한번 사이트 관리자가 진행</li>
+                </ul>
               </div>
             </v-card-text>
             <v-card-actions class="justify-end">
