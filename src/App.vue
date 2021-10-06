@@ -2,7 +2,7 @@
   <v-app>
     <v-app-bar app color="black" dark>
       <div class="d-flex align-center">
-        <h1>3DAYC</h1>
+        <h2>3DAYC</h2>
       </div>
 
       <v-spacer></v-spacer>
@@ -21,6 +21,7 @@
     <v-main>
       <Modal />
       <Card />
+      <Progress />
       <List />
     </v-main>
   </v-app>
@@ -31,6 +32,7 @@ import { mdiShareVariant } from "@mdi/js";
 import Card from "./components/Card";
 import List from "./components/List";
 import Modal from "./components/Modal";
+import Progress from "./components/Progress";
 
 export default {
   name: "App",
@@ -39,6 +41,7 @@ export default {
     Card,
     List,
     Modal,
+    Progress,
   },
 
   data: () => ({

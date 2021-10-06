@@ -4,7 +4,7 @@
       <v-subheader
         ><p>RUNNER(20)</p>
         <v-spacer></v-spacer>
-        <p>누적km</p></v-subheader
+        <p>기여km</p></v-subheader
       >
       <v-list-item-group v-model="selectedItem" color="primary">
         <v-list-item v-for="(item, i) in items" :key="i">
