@@ -7,19 +7,14 @@
 
       <v-spacer></v-spacer>
 
-      <v-btn
-        href="https://www.instagram.com/3dayc/"
-        target="_blank"
-        text
-        style="padding:0"
-      >
+      <v-btn :href="link.instagram" target="_blank" text style="padding:0">
         <span class="mr-2">INSTAGRAM</span>
         <v-icon>{{ icons.mdiShareVariant }}</v-icon>
       </v-btn>
     </v-app-bar>
 
     <v-main>
-      <Modal />
+      <Modal openText="Click" closeText="close" />
       <Card />
       <Progress />
       <List />
@@ -47,6 +42,9 @@ export default {
   data: () => ({
     icons: {
       mdiShareVariant,
+    },
+    link: {
+      instagram: "https://www.instagram.com/3dayc/",
     },
   }),
 };

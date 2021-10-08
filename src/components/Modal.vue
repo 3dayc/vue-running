@@ -24,7 +24,7 @@
     <v-col cols="auto">
       <v-dialog transition="dialog-top-transition" max-width="600">
         <template v-slot:activator="{ on, attrs }">
-          <v-btn color="primary" v-bind="attrs" v-on="on">Click</v-btn>
+          <v-btn color="primary" v-bind="attrs" v-on="on">{{ openText }}</v-btn>
         </template>
         <template v-slot:default="dialog">
           <v-card>
@@ -32,25 +32,15 @@
             <v-card-text>
               <div class="text-h6 pa-12">
                 10월 100km 가을 챌린지<br />
-                <ul style="font-size:14px; margin-top:20px">
-                  <li>
-                    10/09~10/30(3주) 간 개인 누적 합산 100km 달성하기 [팀미션]
+                <ul style="font-size:14px; margin-top:20px; padding-left:0">
+                  <li v-for="(item, i) in contentText" :key="i">
+                    {{ item }}
                   </li>
-                  <li>챌린지 기여km 3등까지 소정의 상품 증정 [개인미션]</li>
-                  <li>
-                    나이키런, 가민 등 기록 캡처본을 러닝 톡방에 올린것만 공식
-                    인정
-                  </li>
-                  <li>
-                    메인 프로필은 기록 업데이트 당시 선두 러너의 프로필로 수시
-                    변경
-                  </li>
-                  <li>기록 업데이트는 1~2일에 한번 사이트 관리자가 진행</li>
                 </ul>
               </div>
             </v-card-text>
             <v-card-actions class="justify-end">
-              <v-btn text @click="dialog.value = false">Close</v-btn>
+              <v-btn text @click="dialog.value = false">{{ closeText }}</v-btn>
             </v-card-actions>
           </v-card>
         </template>
@@ -58,3 +48,19 @@
     </v-col>
   </v-row>
 </template>
+
+<script>
+export default {
+  props: ["openText", "closeText"],
+
+  data: () => ({
+    contentText: [
+      "10/09~10/30(3주) 간 팀 누적 합산 100km 달성하기 [팀미션]",
+      "챌린지 기여km 3등까지 소정의 상품 증정 [개인미션]",
+      "나이키런, 가민 등 기록 캡처본을 러닝 톡방에 올린것만 공식 인정",
+      "메인 프로필은 기록 업데이트 당시 선두 러너의 프로필로 변경",
+      "기록 업데이트는 1~2일에 한번 사이트 관리자가 진행",
+    ],
+  }),
+};
+</script>
