@@ -8,14 +8,14 @@
       ></v-progress-linear>
     </template>
 
-    <v-img height="100%" src="../assets/3dayc.png"></v-img>
+    <v-img height="100%" src="../assets/jonghoon.png"></v-img>
 
-    <v-card-title>이름</v-card-title>
+    <v-card-title>최종훈</v-card-title>
 
     <v-card-text>
       <v-row align="center" class="mx-0">
         <v-rating
-          :value="4.5"
+          :value="3.5"
           color="amber"
           dense
           half-increments
@@ -24,16 +24,16 @@
         ></v-rating>
 
         <div class="grey--text ms-4">
-          4.5
+          3.5
         </div>
       </v-row>
 
       <div class="my-4 text-subtitle-1">
-        $ • Location, Area
+        $ • Bucheon, Sangdong Lake Park
       </div>
 
       <div>
-        description
+        자기 땀 흘리는 모습이 멋있다고 올려달라는 종훈님
       </div>
     </v-card-text>
 
