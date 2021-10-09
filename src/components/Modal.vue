@@ -33,8 +33,8 @@
               <div class="text-h6 pa-12">
                 10월 100km 가을 챌린지<br />
                 <ul style="font-size:14px; margin-top:20px; padding-left:0">
-                  <li v-for="(item, i) in contentText" :key="i">
-                    {{ item }}
+                  <li v-for="(item, i) in contents" :key="i">
+                    {{ item.text }}
                   </li>
                 </ul>
               </div>
@@ -54,12 +54,14 @@ export default {
   props: ["openText", "closeText"],
 
   data: () => ({
-    contentText: [
-      "10/09~10/30(3주) 간 팀 누적 합산 100km 달성하기 [팀미션]",
-      "챌린지 기여km 3등까지 소정의 상품 증정 [개인미션]",
-      "나이키런, 가민 등 기록 캡처본을 러닝 톡방에 올린것만 공식 인정",
-      "메인 프로필은 기록 업데이트 당시 선두 러너의 프로필로 변경",
-      "기록 업데이트는 1~2일에 한번 사이트 관리자가 진행",
+    contents: [
+      { text: "10/09~10/30(3주) 간 팀 누적 합산 100km 달성하기 [팀미션]" },
+      { text: "챌린지 기여km 3등까지 소정의 상품 증정 [개인미션]" },
+      {
+        text: "나이키런, 가민 등 기록 캡처본을 러닝 톡방에 올린것만 공식 인정",
+      },
+      { text: "메인 프로필은 기록 업데이트 당시 선두 러너의 프로필로 변경" },
+      { text: "기록 업데이트는 1~2일에 한번 사이트 관리자가 진행" },
     ],
   }),
 };

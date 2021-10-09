@@ -16,7 +16,6 @@
     <v-main>
       <Modal openText="Click" closeText="close" />
       <Card />
-      <Progress />
       <List />
     </v-main>
   </v-app>
@@ -27,7 +26,6 @@ import { mdiShareVariant } from "@mdi/js";
 import Card from "./components/Card";
 import List from "./components/List";
 import Modal from "./components/Modal";
-import Progress from "./components/Progress";
 
 export default {
   name: "App",
@@ -36,7 +34,6 @@ export default {
     Card,
     List,
     Modal,
-    Progress,
   },
 
   data: () => ({
