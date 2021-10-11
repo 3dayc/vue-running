@@ -8,14 +8,14 @@
       ></v-progress-linear>
     </template>
 
-    <v-img height="100%" src="../assets/jonghoon.png"></v-img>
+    <v-img height="100%" src="../assets/jiwon.png"></v-img>
 
-    <v-card-title>최종훈</v-card-title>
+    <v-card-title>지원</v-card-title>
 
     <v-card-text>
       <v-row align="center" class="mx-0">
         <v-rating
-          :value="3.5"
+          :value="4.5"
           color="amber"
           dense
           half-increments
@@ -24,22 +24,22 @@
         ></v-rating>
 
         <div class="grey--text ms-4">
-          3.5
+          4.5
         </div>
       </v-row>
 
       <div class="my-4 text-subtitle-1">
-        $ • Bucheon, Sangdong Lake Park
+        $ • Incheon, Sintree Park
       </div>
 
       <div>
-        자기 땀 흘리는 모습이 멋있다고 올려달라는 종훈님
+        현재 선두, 페이스가 ㄷㄷ
       </div>
     </v-card-text>
 
     <v-divider class="mx-4"></v-divider>
 
-    <v-card-title>Main workout-time</v-card-title>
+    <v-card-title>Workout Time</v-card-title>
 
     <v-card-text>
       <v-chip-group

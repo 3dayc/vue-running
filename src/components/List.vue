@@ -40,6 +40,8 @@ export default {
   data: () => ({
     selectedItem: 0,
     items: [
+      { text: "지원", icon: "mdi-account", km: 6.94 },
+      { text: "용우", icon: "mdi-account", km: 6.21 },
       { text: "종훈", icon: "mdi-account", km: 5.06 },
       { text: "향훈", icon: "mdi-account", km: 5.06 },
       { text: "홍이", icon: "mdi-account", km: 5 },
@@ -50,13 +52,11 @@ export default {
       { text: "김래오", icon: "mdi-account", km: 0 },
       { text: "김예리", icon: "mdi-account", km: 0 },
       { text: "김지훈", icon: "mdi-account", km: 0 },
-      { text: "용우", icon: "mdi-account", km: 0 },
       { text: "이창명", icon: "mdi-account", km: 0 },
       { text: "인우", icon: "mdi-account", km: 0 },
       { text: "임연주", icon: "mdi-account", km: 0 },
       { text: "전윤지", icon: "mdi-account", km: 0 },
       { text: "주미", icon: "mdi-account", km: 0 },
-      { text: "지원", icon: "mdi-account", km: 0 },
       { text: "진수", icon: "mdi-account", km: 0 },
       { text: "찬울", icon: "mdi-account", km: 0 },
       { text: "향아", icon: "mdi-account", km: 0 },
