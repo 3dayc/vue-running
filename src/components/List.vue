@@ -45,6 +45,7 @@ export default {
       { text: "종훈", icon: "mdi-account", km: 5.06 },
       { text: "향훈", icon: "mdi-account", km: 5.06 },
       { text: "홍이", icon: "mdi-account", km: 5 },
+      { text: "김구연", icon: "mdi-account", km: 2.8 },
       { text: "고하늘", icon: "mdi-account", km: 0 },
       { text: "진혁", icon: "mdi-account", km: 0 },
       { text: "박일광선", icon: "mdi-account", km: 0 },
@@ -61,7 +62,6 @@ export default {
       { text: "찬울", icon: "mdi-account", km: 0 },
       { text: "향아", icon: "mdi-account", km: 0 },
       { text: "요나", icon: "mdi-account", km: 0 },
-      { text: "김구연", icon: "mdi-account", km: 0 },
     ],
   }),
 
@@ -71,7 +71,7 @@ export default {
       for (let i = 0; i < this.items.length; i++) {
         total_km = total_km + this.items[i].km;
       }
-      return total_km;
+      return total_km.toFixed(2);
     },
   },
 };
