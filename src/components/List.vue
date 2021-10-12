@@ -4,7 +4,7 @@
     <v-card class="mx-auto" max-width="300" tile style="margin-bottom:50px">
       <v-list rounded>
         <v-subheader
-          ><p>RUNNER(20)</p>
+          ><p>RUNNER(22)</p>
           <v-spacer></v-spacer>
           <p>기여km</p></v-subheader
         >
@@ -40,8 +40,8 @@ export default {
   data: () => ({
     selectedItem: 0,
     items: [
-      { text: "지원", icon: "mdi-account", km: 6.94 },
-      { text: "용우", icon: "mdi-account", km: 6.21 },
+      { text: "지원", icon: "mdi-account", km: 11.96 },
+      { text: "용우", icon: "mdi-account", km: 11.39 },
       { text: "종훈", icon: "mdi-account", km: 5.06 },
       { text: "향훈", icon: "mdi-account", km: 5.06 },
       { text: "홍이", icon: "mdi-account", km: 5 },
@@ -60,6 +60,8 @@ export default {
       { text: "진수", icon: "mdi-account", km: 0 },
       { text: "찬울", icon: "mdi-account", km: 0 },
       { text: "향아", icon: "mdi-account", km: 0 },
+      { text: "요나", icon: "mdi-account", km: 0 },
+      { text: "김구연", icon: "mdi-account", km: 0 },
     ],
   }),
 
