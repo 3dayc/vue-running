@@ -8,9 +8,9 @@
       ></v-progress-linear>
     </template>
 
-    <v-img height="100%" src="../assets/jiwon.png"></v-img>
+    <v-img height="100%" src="../assets/hoon.png"></v-img>
 
-    <v-card-title>지원</v-card-title>
+    <v-card-title>향훈</v-card-title>
 
     <v-card-text>
       <v-row align="center" class="mx-0">
@@ -29,11 +29,11 @@
       </v-row>
 
       <div class="my-4 text-subtitle-1">
-        $ • Incheon, Sintree Park
+        $ • Bucheon, Sangdong Lake Park
       </div>
 
       <div>
-        현재 선두, 페이스가 ㄷㄷ
+        현재 선두, 똥폼잡기
       </div>
     </v-card-text>
 

@@ -4,7 +4,7 @@
     <v-card class="mx-auto" max-width="300" tile style="margin-bottom:50px">
       <v-list rounded>
         <v-subheader
-          ><p>RUNNER(22)</p>
+          ><p>RUNNER(20)</p>
           <v-spacer></v-spacer>
           <p>기여km</p></v-subheader
         >
@@ -40,14 +40,15 @@ export default {
   data: () => ({
     selectedItem: 0,
     items: [
+      { text: "향훈", icon: "mdi-account", km: 12.72 },
       { text: "지원", icon: "mdi-account", km: 11.96 },
       { text: "용우", icon: "mdi-account", km: 11.39 },
+      { text: "홍이", icon: "mdi-account", km: 11.02 },
       { text: "종훈", icon: "mdi-account", km: 5.06 },
-      { text: "향훈", icon: "mdi-account", km: 5.06 },
-      { text: "홍이", icon: "mdi-account", km: 5 },
+      { text: "진혁", icon: "mdi-account", km: 5 },
+      { text: "전윤지", icon: "mdi-account", km: 3 },
       { text: "김구연", icon: "mdi-account", km: 2.8 },
       { text: "고하늘", icon: "mdi-account", km: 0 },
-      { text: "진혁", icon: "mdi-account", km: 0 },
       { text: "박일광선", icon: "mdi-account", km: 0 },
       { text: "성현", icon: "mdi-account", km: 0 },
       { text: "김래오", icon: "mdi-account", km: 0 },
@@ -56,12 +57,9 @@ export default {
       { text: "이창명", icon: "mdi-account", km: 0 },
       { text: "인우", icon: "mdi-account", km: 0 },
       { text: "임연주", icon: "mdi-account", km: 0 },
-      { text: "전윤지", icon: "mdi-account", km: 0 },
       { text: "주미", icon: "mdi-account", km: 0 },
-      { text: "진수", icon: "mdi-account", km: 0 },
       { text: "찬울", icon: "mdi-account", km: 0 },
       { text: "향아", icon: "mdi-account", km: 0 },
-      { text: "요나", icon: "mdi-account", km: 0 },
     ],
   }),
 
